@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import mlflow
 
 app = FastAPI()
 
