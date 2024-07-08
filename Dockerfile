@@ -1,4 +1,7 @@
-FROM python:3.9-slim-buster
+# FROM python:3.9-slim-buster
+FROM python:3.9-alpine
+# https://www.docker.com/increase-rate-limits/
+# https://www.docker.com/ja-jp/blog/checking-your-current-docker-pull-rate-limits-and-status/
 
 # set environment variables
 WORKDIR /app
